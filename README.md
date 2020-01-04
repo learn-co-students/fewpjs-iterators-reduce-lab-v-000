@@ -3,7 +3,7 @@
 ## Learning Goals
 
 * Define how the `reduce()` method works
-* Demonstrate `reduce()`
+* Demonstrate `redu ce()`
 * Use `reduce()` to create a single aggregate of all items in a list
 
 ## Introduction
@@ -15,7 +15,7 @@ value — it could be, for example, a string, a number, a boolean. For example,
 our friend has a driver's license and a vehicle, but is very bad at keeping an
 eye on the parking meter. They've got dozens of parking tickets with fees.
 Wouldn't it be great if we could _reduce_ all of those parking fees to a _single_
-total value? 
+total value?
 
 ## Define How the `reduce()` Method Works
 
@@ -50,7 +50,7 @@ function getTotalAmountForProducts(products) {
 console.log(getTotalAmountForProducts(products)); // prints 33.46
 ```
 
-This is a very basic way to manually add together the prices of the products we want to buy. 
+This is a very basic way to manually add together the prices of the products we want to buy.
 
 To abstract this further, let's count the number of coupons we have lying around the house:
 
