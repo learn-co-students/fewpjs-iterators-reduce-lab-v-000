@@ -103,7 +103,7 @@ becomes the new `total` for the next iteration. When there's nothing left to
 iterate, the total is returned.
 
 The initialization value can be left out but it might lead to a real surprise.
-If _no_ initial value is supplies, the first element is used _without having
+If _no_ initial value is supplied, the first element is used _without having
 been used in the function_:
 
 ```js
